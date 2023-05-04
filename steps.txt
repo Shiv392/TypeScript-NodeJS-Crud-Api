@@ -1,0 +1,28 @@
+1.initalize ts config
+   tsc init 
+2. initilize express
+ npm init
+ npm install express
+
+3.make app.ts file to code- 
+but simpel express code will not work so in order
+to communicate ts with nodejs - 
+npm i @types/node
+to communicate ts with express js-
+npm i @types/express
+
+4.add some changes in tsconfig.ts
+ "target":"es6",
+ "moduleResolution":"node",
+ "module": "commonjs"
+
+ 5.run file app.ts
+    tsc 
+    this will create copy of app.ts into app.js
+
+6.make a todo router just like a normal express js rules with some typescript symantics
+
+7.make todo api 
+8.make array todos=[] to store all tasks
+9.make interface of data that has to be stored on todos array
+  /models/ todo.ts
